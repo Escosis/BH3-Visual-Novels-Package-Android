@@ -14,7 +14,7 @@
         "parents": {
           "/manifest/application/activity[@android:name='MainActivity']": [
             {
-              "xml": "<activity android:screenOrientation=\"landscape\" />",
+              "xml": "<activity android:screenOrientation=\"sensorLandscape\" />",
               "count": 1,
               "mode": "merge",
               "id": "config.xml",
@@ -24,7 +24,6 @@
                 "android:label": "@string/activity_name",
                 "android:launchMode": "singleTop",
                 "android:name": "MainActivity",
-                "android:screenOrientation": "landscape",
                 "android:theme": "@style/Theme.App.SplashScreen",
                 "android:windowSoftInputMode": "adjustResize"
               }

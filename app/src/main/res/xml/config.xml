@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.miHoYo.bh3.visualnovels" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>崩坏三视觉小说集</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="permissions" value="none" />
+    <preference name="SplashScreen" value="none" />
+    <preference name="SplashScreenBackgroundColor" value="#000000" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/empty.png" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#000000" />
+</widget>

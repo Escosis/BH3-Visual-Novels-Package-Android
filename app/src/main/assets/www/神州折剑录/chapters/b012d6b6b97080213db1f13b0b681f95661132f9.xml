@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <scripts>
+    <scene id="000" title="回忆篇1" root="true">
+      <transition mode="fade" in="0" stop="0.5" out="2" color="#000000"/>
+      <bgm id="秋恋古道（慢抒情）"/>
+      <bg img="PureBlack"/>
+      <mono pageend="true">
+        <p/>
+        <p>秦素衣的记忆伊始，是一片蔚蓝。</p>
+      </mono>
+      <se id="02-22海浪loop" looptimes="-1"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="海边"/>
+      <event action="hide_ui" duration="1.5"/>
+      <delay t="1.5"/>
+      <mono pageend="true">
+        <p/>
+        <p>碧色的海水喧闹哗哗，波浪不时漫过她的脚腕，年少的秦素衣站在海边。</p>
+        <p/>
+        <p>不知为何，每每回忆起这段画面，她总是觉得非常开心。</p>
+      </mono>
+      <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
+      <mono>
+        <p/>
+        <p>低头看去，是白白的浪与软软的沙；仰天望去，是蓝蓝的天与悠悠的云。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>好像有什么人在一旁说什么，做什么，声音吵吵的，闹闹的。秦素衣没有回头。</p>
+      </mono>
+      <text>
+        <p>唰——</p>
+        <p/>
+        <p>呀——哑哑——</p>
+      </text>
+      <mono>
+        <p/>
+        <p>古怪的声响惊起一片鸥鹭，漫天散羽。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>师父从身后走来，将她抱起，带她回家。</p>
+      </mono>
+      <se looptimes="0"/>
+      <event action="hide_ui"/>
+      <cg img="CG_回忆篇_秦素衣" duration="2"/>
+      <delay t="2"/>
+      <event action="show_ui"/>
+      <mono>
+        <p/>
+        <p>师父的衣袖是红红的，臂弯是暖暖的。</p>
+        <p>在这个人的怀里，她感到十分平静。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>更早之前的事，秦素衣不记得了。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>那一年，赤鸢上仙剑斩璃岛妖兽于东海。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>那一年，八岁的秦素衣拜入太虚山，成为赤鸢真人座下弟子，排行第七。</p>
+      </mono>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <cg/>
+      <bg img="太虚山"/>
+      <event action="hide_ui" duration="2"/>
+      <delay t="2"/>
+      <mono>
+        <p/>
+        <p>来到陌生地方的素衣茫然无措，大师姊林朝雨就寸步不离，替她收拾好屋子，采买生活用品。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>一开始，秦素衣连话都想不起怎么说，林朝雨便一句一句地陪她讲。</p>
+      </mono>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="太虚山3"/>
+      <motion chara="003" action="show" pos="left" img="朝雨-标准-标准-中景"/>
+      <motion chara="009" action="show" pos="right" img="秦素衣-标准-幼年-中景"/>
+      <dialog chara="003">「家。」</dialog>
+      <dialog chara="009">「……家……」</dialog>
+      <dialog chara="003">「对。」</dialog>
+      <text>大师姊柔声道。</text>
+      <dialog chara="003">「以后，这里就是你的家。」</dialog>
+      <dialog chara="009">「我……的家……」</dialog>
+      <text>秦素衣缓缓重复。</text>
+      <dialog chara="009">「谢谢……师姊……」</dialog>
+      <motion chara="003" action="img_trans" img="朝雨-傻笑-标准-中景"/>
+      <dialog chara="003">「对啦，对啦。」</dialog>
+      <text>林朝雨开心地拍手，笑得像个孩子。</text>
+      <text>秦素衣也学她一起拍手大笑。</text>
+      <motion chara="003" action="hide"/>
+      <motion chara="009" action="hide"/>
+      <mono pageend="true">
+        <p/>
+        <p>这是她忆事以来最快乐的时光，多年之后，在她人生中最痛苦、绝望的时候，她仍会时常想起这段珍贵的回忆。</p>
+      </mono>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="太虚山"/>
+      <mono pageend="true">
+        <p/>
+        <p>林朝雨和她朝夕相处了三日，跟着便要回去照顾素衣的六师兄，她的六师弟马彦卿了。</p>
+      </mono>
+      <dialog chara="003">「师姊不能多陪你啦。彦卿年纪小，许久见不着我肯定又哭又闹，二妹可管不住他。」</dialog>
+      <mono pageend="true">
+        <p/>
+        <p>太虚剑派的弟子以入门时间排行。秦素衣拜师最晚，年纪却不是最小。</p>
+        <p>她与五师姊同龄，但比六师兄还大了三岁。</p>
+      </mono>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="太虚山1"/>
+      <event action="hide_ui" duration="3"/>
+      <motion chara="003" action="show" pos="200,0" img="朝雨-温柔-标准-远景" duration="3"/>
+      <motion chara="011" action="show" pos="390,0" img="马彦卿-标准-幼年-远景" duration="1.6"/>
+      <delay t="3"/>
+      <event action="show_ui"/>
+      <mono>
+        <p/>
+        <p>六师兄她是见过的；师父领她上山时，六位同门——五女一男全都来到门口迎接。辈分最长的大师姐看上去与师父差不多年纪，怀里搂着一个面带疑惑的小孩子。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>秦素衣出于好奇多瞧了那孩子几眼，仍没辨出是男是女。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <motion chara="006" action="show" pos="-300,0" duration="3" img="江婉如-标准-幼年-远景"/>
+      <motion chara="005" action="show" pos="-100,0" duration="3" img="江婉兮-标准-幼年-远景"/>
+      <delay t="3"/>
+      <event action="show_ui"/>
+      <mono>
+        <p/>
+        <p>一旁，两个长得一模一样的女孩并肩而立，一位好奇地打量着素衣，另一个则微微侧着身子，像在躲避什么；</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <motion chara="004" action="show" pos="-600,0" duration="3" img="苏湄-笑容-幼年-远景"/>
+      <delay t="3"/>
+      <event action="show_ui"/>
+      <mono>
+        <p/>
+        <p>左边，一名红发的少女往嘴里塞了颗蜜饯，冲素衣挤挤眼睛，笑起来好看极了。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <motion chara="007" action="show" pos="700,0" duration="3" img="凌霜-标准-幼年-远景"/>
+      <delay t="3"/>
+      <event action="show_ui"/>
+      <mono pageend="true">
+        <p/>
+        <p>她又往右侧瞧去，才看见最后一位少女站在大家的身后，手持一柄金剑，面无表情。</p>
+      </mono>
+      <dialog chara="093">「往后这里是你的家，她们就是你的家人。」</dialog>
+      <text>师父轻声说道，</text>
+      <dialog chara="000">「北荒又有恶兽作乱，为师不得不暂离数月。朝雨，你收拾一间空房领素衣住下。可先教她剑形，但不可在素衣面前念诵剑心诀，待我回来亲自传授。」</dialog>
+      <motion chara="004" action="img_trans" img="苏湄-眨眼-幼年-远景"/>
+      <text>大师姐与五个孩子一齐点头，红发少女还冲她眨了眨眼。</text>
+      <motion chara="003" action="hide"/>
+      <motion chara="004" action="hide"/>
+      <motion chara="005" action="hide"/>
+      <motion chara="006" action="hide"/>
+      <motion chara="007" action="hide"/>
+      <motion chara="011" action="hide"/>
+      <text>师父又再交代了几句话，便匆匆上路。几个孩子一哄而散，大师姐把怀里的美少年交给红发少女，执起素衣的手，带她前往后院，一路上和她聊了许多。</text>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <bg img="太虚山4"/>
+      <mono>
+        <p/>
+        <p>三日攸忽即过，大师姐却没回去。</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>不知是体质太弱，抑或水土不服；秦素衣大病了一场，起初全身发寒，接着又烫得像火。林朝雨彻夜看护，替她换洗上药，运功治病。</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>秦素衣也一夜没睡，但高烧让她迷迷糊糊，看不清也记不清许多事情；</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>她好像记得红发少女带着漂亮的小男孩来探望她。两人在她枕头下面放了块圆圆的东西，说是能祛病驱邪，醒来却发现那儿空无一物；</p>
+      </mono>
+      <mono>
+        <p/>
+        <p>那对双胞胎的姐妹似乎也来过。她模模糊糊地记得一个跟在大师姐身边，帮她换了块药巾；另一个抓着她的手，哭得很是伤心；</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p>她一直在想那个拿金剑的冷漠女孩，可不记得她来过没有。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <bg img="太虚山3" duration="3"/>
+      <delay t="3"/>
+      <mono>
+        <p/>
+        <p>次日中午，骄阳高照。秦素衣高烧尽退，如获新生。</p>
+      </mono>
+      <event action="hide_ui" duration="3"/>
+      <motion chara="099" action="show" pos="center" img="苏湄-认真-幼年-中景" duration="3"/>
+      <delay t="3"/>
+      <event action="show_ui"/>
+      <mono pageend="true">
+        <p/>
+        <p>她坐起身，左右四顾，没见到大师姐，却看见那个红发的女孩。她迈着和沉稳的大师姐截然不同的轻快步子跳进屋子，绕着素衣走了一圈，忽然从怀里掏出一把糖果：</p>
+      </mono>
+      <motion chara="099" action="img_trans" img="苏湄-吃糖-幼年-中景"/>
+      <dialog chara="099">「给。」</dialog>
+      <text>素衣没有接。</text>
+      <dialog chara="099">「哎呀，没有毒。」</dialog>
+      <motion chara="099" action="img_trans" img="苏湄-笑-幼年-中景"/>
+      <text>红发女孩硬是塞了几颗糖在她手里，往后退了步，嫣然一笑：</text>
+      <dialog chara="099">「看得出来，你没事啦。」</dialog>
+      <text>秦素衣点点头，不由自主地往门口望去，寻找林朝雨的身影。</text>
+      <motion chara="099" action="img_trans" img="苏湄-遗憾-幼年-中景"/>
+      <dialog chara="099">「别找啦～她带小马儿回去了。」</dialog>
+      <text>红发少女笑道。</text>
+      <dialog chara="099">「师父把你交给师姐，师姐把你交给我。」</dialog>
+      <motion chara="099" action="img_trans" img="苏湄-环视-幼年-中景"/>
+      <text>她就像说绕口令一样飞快地吐着字句。</text>
+      <dialog chara="099">「小马儿离不开我，师姐离不开小马儿，可我呢？」</dialog>
+      <text>红发的女孩想了想，嘴角微微上扬，也不知是遗憾还是满意。</text>
+      <motion chara="099" action="img_trans" img="苏湄-遗憾-幼年-中景"/>
+      <dialog chara="099">「我好像没有离不开的人。」</dialog>
+      <dialog chara="099">「你呢？你有这样的人吗？」</dialog>
+      <dialog chara="009">「……没……有……」</dialog>
+      <text>秦素衣缓缓回答。</text>
+      <motion chara="099" action="img_trans" img="苏湄-哀伤-幼年-中景"/>
+      <dialog chara="099">「她们说你把以前的事都忘了。」</dialog>
+      <motion chara="099" action="img_trans" img="苏湄-凝视-幼年-中景"/>
+      <text>红发女孩凑近她，盯着她的眼睛：</text>
+      <dialog chara="099">「都忘了是什么感觉？什么束缚都没有了，会不会很自由？」</dialog>
+      <text>素衣也望向红发的少女，视线交错。</text>
+      <dialog chara="009">
+        <p>「……都……忘了……</p>
+        <p>……很……伤心……」</p>
+      </dialog>
+      <dialog chara="009">「不……自由……没有……自由……」</dialog>
+      <dialog chara="009">「……我……想要……记起来……」</dialog>
+      <text>她艰难地，一字一句地说着。</text>
+      <text>红发女孩没有焦急，也没有催促，只是沉默地，平静地和她对视。</text>
+      <dialog chara="009">「……我……想……记住……」</dialog>
+      <motion chara="099" action="hide"/>
+      <transition mode="fade" in="1" stop="0.5" out="1" color="#ffffff"/>
+      <bg img="BGPureWhite00"/>
+      <text>眼泪扑簌簌地落下，素衣的眼前一片白茫。</text>
+      <bg img="BGIntel3" duration="3"/>
+      <mono>接着，出乎她意料的事发生了。</mono>
+      <mono>
+        <p/>
+        <p>红发女孩搂住她的肩膀，有什么一滴滴落在她的衣衫上。</p>
+      </mono>
+      <bg img="BGIntel1" duration="3"/>
+      <mono pageend="true">
+        <p/>
+        <p>这是秦素衣有记忆以来第二次被人抱在怀中，但和师父踏实温暖的怀抱不同，红发女孩的拥抱是冰冷的，仿佛在挤压着她，让她不断收缩，直到变成一个虚无的点。</p>
+      </mono>
+      <motion chara="099" action="show" img="苏湄-宿命-幼年-近景" pos="center"/>
+      <dialog chara="099">「师父不会做没意义的事，所以不要记起来，不要记起来。」</dialog>
+      <text>红发女孩在她耳边低声叮咛，</text>
+      <motion chara="099" action="img_trans" img="苏湄-哀伤-幼年-近景"/>
+      <dialog chara="099">「记住，记住就好。记住现在的事，记住以后的事。把回忆牢牢收好，永远别忘掉。」</dialog>
+      <dialog chara="009">「……记住……不……忘掉……」</dialog>
+      <motion chara="099" action="img_trans" img="苏湄-笑-幼年-近景"/>
+      <dialog chara="099">「对啦。」</dialog>
+      <bg img="太虚山3"/>
+      <text>女孩放开她，又用手指帮她抹掉脸颊上的泪。</text>
+      <dialog chara="099" inline="true">「从现在开始死死守住记忆吧，你可以先从我的名字开始——</dialog>
+      <motion chara="099" action="img_trans" img="苏湄-认真-幼年-近景"/>
+      <dialog chara="004">我叫苏湄。」</dialog>
+      <delay t="2"/>
+      <transition mode="fade" in="3" stop="0.5" out="0" color="#000000"/>
+      <event action="callback" name="end"/>
+    </scene>
+  </scripts>
+</data>

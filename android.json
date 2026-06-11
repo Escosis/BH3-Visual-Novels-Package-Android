@@ -9,6 +9,28 @@
         "parents": {
           "/*": []
         }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest/application/activity[@android:name='MainActivity']": [
+            {
+              "xml": "<activity android:screenOrientation=\"landscape\" />",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml",
+              "oldAttrib": {
+                "android:configChanges": "orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation",
+                "android:exported": "true",
+                "android:label": "@string/activity_name",
+                "android:launchMode": "singleTop",
+                "android:name": "MainActivity",
+                "android:screenOrientation": "landscape",
+                "android:theme": "@style/Theme.App.SplashScreen",
+                "android:windowSoftInputMode": "adjustResize"
+              }
+            }
+          ]
+        }
       }
     }
   },

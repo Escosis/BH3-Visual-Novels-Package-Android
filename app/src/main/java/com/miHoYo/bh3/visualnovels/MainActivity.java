@@ -92,19 +92,36 @@ public class MainActivity extends CordovaActivity {
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
-        if (mRotationObserver != null) {
-            mRotationObserver.startObserver();
-            setScreenOrientation();
+    protected void onPause() {
+        super.onPause();
+        if (appView != null) {
+            String js = "javascript:(function() {" +
+                    "var audios = document.querySelectorAll('audio');" +
+                    "for(var i=0;i<audios.length;i++){" +
+                    "   if(!audios[i].paused){" +
+                    "       audios[i].pause();" +
+                    "       audios[i].setAttribute('data-was-playing','true');" +
+                    "   }" +
+                    "}" +
+                    "})()";
+            appView.loadUrl(js);   // 直接使用 appView，不需要 getView()
         }
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        if (mRotationObserver != null) {
-            mRotationObserver.stopObserver();
+    protected void onResume() {
+        super.onResume();
+        if (appView != null) {
+            String js = "javascript:(function() {" +
+                    "var audios = document.querySelectorAll('audio');" +
+                    "for(var i=0;i<audios.length;i++){" +
+                    "   if(audios[i].getAttribute('data-was-playing') === 'true'){" +
+                    "       audios[i].play().catch(function(e){});" +
+                    "       audios[i].removeAttribute('data-was-playing');" +
+                    "   }" +
+                    "}" +
+                    "})()";
+            appView.loadUrl(js);
         }
     }
 }

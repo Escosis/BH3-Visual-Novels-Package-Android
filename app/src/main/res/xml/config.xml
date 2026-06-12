@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.miHoYo.bh3.visualnovels" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.miHoYo.bh3.visualnovels" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>崩坏三视觉小说集</name>
     <description>
         使用cordova打包的经过本地化的崩坏三三部视觉小说合集。
@@ -10,6 +10,7 @@
     </edit-config>
     <preference name="loglevel" value="DEBUG" />
     <preference name="permissions" value="none" />
+    <preference name="KeepRunning" value="false" />
     <preference name="SplashScreen" value="none" />
     <preference name="SplashScreenBackgroundColor" value="#000000" />
     <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/drawable/ic_cdv_splashscreen.xml" />

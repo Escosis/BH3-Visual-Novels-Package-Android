@@ -24,6 +24,7 @@
                 "android:label": "@string/activity_name",
                 "android:launchMode": "singleTop",
                 "android:name": "MainActivity",
+                "android:screenOrientation": "sensorLandscape",
                 "android:theme": "@style/Theme.App.SplashScreen",
                 "android:windowSoftInputMode": "adjustResize"
               }
